@@ -9,8 +9,8 @@ public class Score extends Rectangle{
     int player1;
     int player2;
     Score(int width, int height){
-        Score.GAME_WIDTH = 1500;
-        Score.GAME_HEIGHT = 900;
+        Score.GAME_WIDTH = width;
+        Score.GAME_HEIGHT = height;
     }
     public void draw(Graphics g){
         g.setColor(Color.white);
